@@ -67,7 +67,7 @@ text-align:;
 }
 
 .cardSection {
-	height: 800px;
+	height: 700px;
     position: relative;
     
     width: 100%;
@@ -98,6 +98,15 @@ text-align:;
 margin-left: 2rem;
 margin-right: 2rem;
 }
+.orador{
+    height: 80px;
+    position: relative;
+    
+    width: 100%;
+    justify-content: center;
+    display: flex;
+
+}
 .oradores {
     width: 100%;
 
@@ -107,6 +116,18 @@ margin-right: 2rem;
     justify-content: center;
     position: relative;
     display: inline-table;
+    font-size: 2px;
+}
+.oradores1 {
+    width: 50%;
+    
+    align-items: center;
+    justify-content: center;
+   
+    text-align: center;
+   
+    position: relative;
+   
     font-size: 2px;
 }
 .oradores h2 {
