@@ -1,0 +1,274 @@
+body {
+		padding: 0;
+		margin: 0;
+	}
+
+	.hero {
+    background-image: url(img/ba1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    position: relative;
+    
+    width: 100%;
+
+}
+.contenido-hero {
+    position: relative;
+    background-color: rgba( 0,0,0, .7 ); /** Anterior **/
+    background-color: rgb( 0 0 0 / 50% );
+    width: 100%;
+    height: 100%;
+
+    
+    
+
+    
+
+
+}
+
+
+.btn-success {
+
+
+	background-color: #28a745;
+}
+.contenido-hero .botones {
+	position: relative;
+	display: inline-flex;
+    justify-content: right;
+    float: right;
+}
+.contenido-hero .tituloydescripcion {
+	width: 550px;
+	height: 350px;
+
+    position: relative;
+    margin-top: 400px;
+    float: right;
+    bottom: 0px;
+    margin-right: 30px;
+
+	
+   
+	
+}
+
+.contenido-hero .tituloydescripcion h2{
+
+text-align: right;
+color: white;
+
+}
+.contenido-hero .tituloydescripcion p {
+color: white;
+text-align:;
+}
+
+.cardSection {
+	height: 800px;
+    position: relative;
+    
+    width: 100%;
+    justify-content: center;
+    display: flex;
+
+
+}
+
+
+.contenedor-cards{
+
+	height: 750px;
+	width: 1200px;
+	position: relative;
+	display: inline; 
+    justify-content: center;
+
+    display: flex;
+    	
+   
+    
+   
+
+    
+}
+.card {
+margin-left: 2rem;
+margin-right: 2rem;
+}
+.oradores {
+    width: 100%;
+
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 2px;
+}
+.oradores h2 {
+    font-size: 30px;
+    font-family: ;
+
+}
+.oradores h6{
+font-family: sans-serif ;
+font-size: 13px;
+}
+
+
+.js {
+    background-color: #fec107;
+    font-weight: bold;
+    color: black;
+    border-radius: 5px;
+    font-size: 13px;
+    padding: 3px;
+}
+.react{
+    background-color: #17a3b9;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 13px;
+    padding: 3px;
+}
+.card-block {
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+
+
+
+.startups {
+    background-color: #dc3546;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    font-size: 13px;
+    padding: 3px;
+}
+.negocios{
+    background-color: #6c757d;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 13px;
+    padding: 3px;
+}
+
+.carousel {
+    height: 500px;
+    position: relative;
+    
+    width: 100%;
+    background-color: #353a40;
+    display: flex;
+    margin-bottom: 30px;
+    
+}
+
+.contenedor-carousel {
+    
+    width: 50%;
+    position: relative;
+    display: flex;
+    background-image: url(img/honolulu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contenedor-carousel-info{
+
+    width: 50%;
+    position: relative;
+    display: flex;
+    float: right;
+    display: inline;
+    
+
+
+}
+.contenedor-carousel-info .adentro {
+
+    color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.contenedor-carousel-info .adentro p{
+
+    font-size: 16px;
+}
+.formulario{
+    height: 350px;
+    position: relative;
+    
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+
+.formulario .form{
+    
+    height: 400px;
+    width: 50%;
+    position: relative;
+    padding-top: 20px;
+
+    
+   
+    
+
+
+}
+
+.formulario .form .texto {
+    text-align: center;
+    
+    position: relative;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 20px;
+}
+.btn-primary {
+    background-color: #96c93e;
+    border-color: #96c93e;
+}
+.btn-primary:hover {
+    background-color: #96c63e;
+    border-color: #96c93e;
+}
+footer{
+
+    width: 100%;
+    
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    background-color: #154461;
+    position: relative;
+}
+footer .items{
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    display: inline-flex;
+    color: white;
+    
+} 
+footer .items h6{
+    margin-top: 30px;
+    text-align: center;
+    align-items: center;
+    margin:  30px auto auto auto;
+    
+}
+.navbar-nav{
+        float:right;
+        position: relative;
+        margin: 0px 0px auto 500px;
+        display: inline-flex;
+        
+    }
+
