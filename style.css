@@ -104,6 +104,9 @@ margin-right: 2rem;
     margin-top: 10px;
     margin-bottom: 20px;
     text-align: center;
+    justify-content: center;
+    position: relative;
+    display: inline-table;
     font-size: 2px;
 }
 .oradores h2 {
