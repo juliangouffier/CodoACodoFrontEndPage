@@ -11,19 +11,19 @@ function calcular() {
             const valorAPagar= 200 * cantidad.value;
             const valorTotal = valorAPagar - valorAPagar * 0.8;
             
-            response.innerHTML =  valorAPagar + '<br> Total con descuento: $ ' + valorTotal   ;
+            response.innerHTML =  valorAPagar + ' Total con descuento: $ ' + valorTotal   ;
    	}else if(select.value==2){
    			//2
             const valorAPagar= 200 * cantidad.value;
             const valorTotal = valorAPagar - valorAPagar * 0.5;
             
-            response.innerHTML =   valorAPagar + '<br> Total con descuento: $ ' + valorTotal   ;
+            response.innerHTML =   valorAPagar + ' Total con descuento: $ ' + valorTotal   ;
    	}else if(select.value ==3){
    		//3
          const valorAPagar= 200 * cantidad.value;
             const valorTotal = valorAPagar - valorAPagar * 0.15;
             
-            response.innerHTML =  valorAPagar + '<br> Total con descuento: $ ' + valorTotal   ;
+            response.innerHTML =  valorAPagar + ' Total con descuento: $ ' + valorTotal   ;
    	}else{
          response.innerHTML = "Error";
       }
