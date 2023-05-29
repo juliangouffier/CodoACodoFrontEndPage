@@ -347,7 +347,7 @@ footer .items h6{
 .cardSection2 {
     height: 450px;
     position: relative;
-    
+    margin-bottom: 20px;
     width: 100%;
     justify-content: center;
     display: table;
