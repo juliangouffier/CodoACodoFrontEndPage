@@ -296,3 +296,95 @@ footer .items h6{
         
     }
 
+.Estudiante {
+    
+    position: relative;
+    
+    width: 250px;
+    height: 250px;
+    justify-content: center;
+    display: table-column;
+    border: 2px solid;
+    margin-right: 7px;
+    border-color: #047dfe;
+
+}
+.Trainee {
+    
+    position: relative;
+    
+    width: 250px;
+    height: 250px;
+    justify-content: center;
+    display: table-column;
+    border: 2px solid;
+    margin-right: 7px;
+    border-color: #4ab6c8;
+
+}
+.Junior {
+    
+    position: relative;
+    
+    width: 250px;
+    height: 250px;
+    justify-content: center;
+    display: table-column;
+    border: 2px solid;
+    border-color: #fec10b;
+
+}
+.cardSection1 {
+    height: 251px;
+    position: relative;
+    
+    width: 100%;
+    justify-content: center;
+    display: flex;
+
+
+}
+.cardSection2 {
+    height: 450px;
+    position: relative;
+    
+    width: 100%;
+    justify-content: center;
+    display: table;
+
+
+}
+
+.formulario1{
+    height: 350px;
+    position: relative;
+    
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+
+.formulario1 .form1{
+    
+    height: 400px;
+    width: 40%;
+    position: relative;
+    padding-top: 20px;
+
+    
+   
+    
+
+
+}
+.botones {
+
+position: relative;
+    
+     position: relative;
+    
+    width: 100%;
+    justify-content: center;
+    display: flex;
+
+}
